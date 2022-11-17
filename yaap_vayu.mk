@@ -14,6 +14,8 @@ $(call inherit-product, device/xiaomi/vayu/device.mk)
 # Inherit some common YAAP stuffs.
 $(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
+TARGET_BUILD_GAPPS := true
+
 PRODUCT_NAME := yaap_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
